@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>OTP Login</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="darkmode.css" />
+</head>
+<body class="page page-centered">
+<button id="themeToggle" class="theme-btn">🌙</button>
+
+<div class="card card-narrow">
+  <h1 class="title-main">Login with OTP</h1>
+
+  <form id="otpForm" class="form">
+    <label class="label">Enter Mobile Number</label>
+    <input class="input" id="otpMobile" maxlength="10" required />
+
+    <button id="sendOtpBtn" type="button" class="btn btn-primary btn-full">
+      Send OTP
+    </button>
+
+    <label class="label">Enter OTP</label>
+    <input class="input" id="otpCode" required />
+
+    <button id="verifyOtpBtn" type="button" class="btn btn-primary btn-full">
+      Verify OTP
+    </button>
+  </form>
+
+  <div class="actions">
+    <a class="link" href="login.html">← Back to Login</a>
+  </div>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
