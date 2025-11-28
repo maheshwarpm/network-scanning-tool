@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Signup - Network Scanner Demo</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="darkmode.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+<body class="page page-centered">
+
+<button id="themeToggle" class="theme-btn">🌙</button>
+
+<div class="card card-narrow">
+  <h1 class="title-main">Create Account</h1>
+
+  <form id="signupForm" class="form">
+
+    <label class="label">Your Name</label>
+    <input class="input" id="name" type="text" required />
+
+    <label class="label">Email</label>
+    <input class="input" id="email" type="email" required />
+
+    <label class="label">Mobile Number</label>
+    <input class="input" id="mobile" type="text" maxlength="10" required />
+
+    <label class="label">Password</label>
+    <input class="input" id="regPass" type="password" required />
+
+    <button class="btn btn-primary btn-full" type="submit">Sign Up</button>
+  </form>
+
+  <div class="actions">
+    <a class="link" href="login.html">Already have an account? Log in</a>
+  </div>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
