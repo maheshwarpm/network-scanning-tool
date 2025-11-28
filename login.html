@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Login - Network Scanner Demo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="darkmode.css" />
+</head>
+<body class="page page-centered">
+  <button id="themeToggle" class="theme-btn">🌙</button>
+
+  <div class="card card-narrow">
+    <h1 class="title-main">Login</h1>
+    <p class="subtitle">Login using Email / Mobile & Password</p>
+
+    <form id="loginForm" class="form">
+
+      <label class="label">Email or Mobile Number</label>
+      <input class="input" id="identifier" type="text" placeholder="you@example.com or 9876543210" required />
+
+      <label class="label">Password</label>
+      <div class="password-wrapper">
+        <input class="input" id="password" type="password" placeholder="••••••••" required />
+        <span id="togglePassword" class="toggle-eye">👁️</span>
+      </div>
+
+      <button class="btn btn-primary btn-full" type="submit">Login</button>
+    </form>
+
+    <div class="actions">
+      <a class="link" href="forgot.html">Forgot Password?</a><br>
+      <a class="link" href="otp.html">Login with OTP</a><br>
+      <a class="link" href="signup.html">Create New Account</a><br><br>
+      <a class="link" href="index.html">← Back to Home</a>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
