@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Dashboard</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="darkmode.css">
+</head>
+<body class="page page-centered">
+
+<button id="themeToggle" class="theme-btn">🌙</button>
+
+<div class="card card-wide">
+  <h1 class="title-main">Welcome, <span id="userName"></span> 👋</h1>
+
+  <p class="subtitle">Choose an action:</p>
+
+  <div class="features-grid">
+    <a href="scanner.html" class="feature btn-menu">🔍 Start Port Scan</a>
+    <a href="index.html" class="feature btn-menu">🏠 Go to Home</a>
+    <button id="logoutBtn" class="feature btn-menu">🚪 Logout</button>
+  </div>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
