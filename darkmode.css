@@ -1,0 +1,32 @@
+body.dark {
+  background: #111827;
+  color: #e5e7eb;
+}
+
+.dark .card {
+  background: #1f2937;
+  color: white;
+}
+
+.dark .input {
+  background: #374151;
+  color: white;
+  border-color: #4b5563;
+}
+
+.dark .results-box {
+  background: #374151;
+  color: #e5e7eb;
+}
+
+.theme-btn {
+  position: fixed;
+  right: 20px;
+  top: 20px;
+  background: #1f2937;
+  color: white;
+  padding: 10px;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+}
