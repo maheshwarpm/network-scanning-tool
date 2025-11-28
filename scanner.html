@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Node.js Port Scanner UI</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="scanner.css" />
+</head>
+<body>
+
+<div class="container">
+    <h1 class="title">
+        🌐 <span>Node.js Port Scanner</span>
+    </h1>
+
+    <p class="subtitle">
+        This UI requires a Node.js backend to run the actual scanning logic.
+    </p>
+
+    <div class="form-box">
+
+        <label>Target IP Address:</label>
+        <input id="targetIp" class="input" placeholder="e.g. 192.168.1.1" />
+
+        <label>Ports to Scan (comma-separated):</label>
+        <input id="ports" class="input" placeholder="e.g. 21,22,80,443" />
+
+        <button id="startScanBtn" class="btn">Start Scan</button>
+    </div>
+
+    <h2 class="results-title">Results:</h2>
+    <textarea id="results" class="results" readonly></textarea>
+
+    <div id="statusBar" class="status">Ready</div>
+</div>
+
+<script src="scanner.js"></script>
+</body>
+</html>
